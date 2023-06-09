@@ -15,4 +15,6 @@ socat TCP-LISTEN:$SOCAT_PORT,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\" &
 echo -e '\033[32m[*] Success start socat!\033[0m' # INFO
 
 # Start exegol
+echo -e "\033[32m[*] exegol start\033[0m"
 exegol start
+# exegol start -p 127.0.0.1:8080:8080

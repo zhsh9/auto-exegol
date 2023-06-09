@@ -32,3 +32,6 @@ else
     ## if off.
     echo -e '\033[31m[!] socat process is off!\033[0m' # INFO
 fi
+
+# Stop exegol container.
+exegol stop
