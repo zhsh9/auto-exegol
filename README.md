@@ -18,3 +18,7 @@ chmod +x ./*.sh
 ./run.sh
 ./stop.sh
 ```
+
+# TODO
+
+- [ ] start and end docker
